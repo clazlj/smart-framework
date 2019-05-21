@@ -40,14 +40,14 @@ public final class ConfigHelper {
      * 获取应用基础包名
      */
     public static String getAppBasePackage() {
-        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_BASE_PACKAGE,"/WEB-INF/view/");
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_BASE_PACKAGE);
     }
 
     /**
      * 获取应用JSP路径
      */
     public static String getAppJspPath() {
-        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH);
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH, "/WEB-INF/view/");
     }
 
     /**

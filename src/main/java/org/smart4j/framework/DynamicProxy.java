@@ -6,6 +6,7 @@ import java.lang.reflect.Proxy;
 
 /**
  * JDK动态代理
+ * 限制：使用动态代理的对象必须实现一个或多个接口
  */
 public class DynamicProxy implements InvocationHandler {
     /**

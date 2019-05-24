@@ -6,6 +6,6 @@ public class GreetingImpl implements Greeting {
     @Override
     public void sayHello(String name) {
         System.out.println(name);
-
+        throw new RuntimeException("出错Error");
     }
 }

@@ -7,6 +7,7 @@ import java.lang.reflect.Method;
 
 /**
  * 同时实现前置增强、后置增强
+ * 也可以由两个类各自实现前置增强、后置增强
  */
 public class GreetingBeforeAndAfterAdvice implements MethodBeforeAdvice , AfterReturningAdvice {
 
